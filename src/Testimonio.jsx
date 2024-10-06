@@ -23,7 +23,7 @@ function Testimonio({ id, imageUrl, title, subTitle, text, description }) {
 
     return (
         <>
-            <Card sx={{ maxWidth: 600 }}>
+            <Card sx={{ maxWidth: 600, mt: 8, mb: 8 }}>
                 <CardActionArea>
                     <CardMedia
                         component="img"
@@ -49,7 +49,6 @@ function Testimonio({ id, imageUrl, title, subTitle, text, description }) {
                    </IconButton>
                 </CardActions>
             </Card>
-            <br></br><br></br><br></br>
 
         </>
     )
